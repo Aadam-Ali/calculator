@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #f7d794, #f3a683);
+}
+
+button {
+    font-family: 'VT323', 'monospace';
+    font-size: 250%;
+    border: 1px;
+    border-style: solid;
+    border-color: #363636;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 80px);
+}
+
+.number, .decimal{
+    background-color: #f78fb3;
+}
+
+.clear, .sign, .percent {
+    background-color: #778beb;
+}
+
+.operator, .equals {
+    background-color: #63cdda;
+}
+
+#display {
+    grid-column: span 4;
+    font-family: 'VT323', 'monospace';
+    background-color: #596275;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 6em;
+}
+
+#btnZero {
+    grid-column: span 2;
+}
