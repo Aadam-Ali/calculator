@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
     margin: 0;
@@ -10,30 +11,10 @@ body {
     background: linear-gradient(120deg, #f7d794, #f3a683);
 }
 
-button {
-    font-family: 'VT323', 'monospace';
-    font-size: 250%;
-    border: 1px;
-    border-style: solid;
-    border-color: #363636;
-}
-
 #container {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(6, 80px);
-}
-
-.number, .decimal{
-    background-color: #f78fb3;
-}
-
-.clear, .sign, .percent {
-    background-color: #778beb;
-}
-
-.operator, .equals {
-    background-color: #63cdda;
+    grid-template-rows: 90px repeat(5, 80px);
 }
 
 #display {
@@ -46,7 +27,27 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 6em;
+    font-size: 5em;
+}
+
+button {
+    font-family: 'Varela Round', 'sans-serif';
+    font-size: 250%;
+    border: 1px;
+    border-style: solid;
+    border-color: #363636;
+}
+
+.clear, .sign, .percent {
+    background-color: #f95335;
+}
+
+.operator, .equals {
+    background-color: #fcaf38;
+}
+
+.operand, .decimal {
+    background-color: #50a3a4;
 }
 
 #btnZero {
