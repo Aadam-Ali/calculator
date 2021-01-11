@@ -14,16 +14,16 @@ body {
 #container {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: 90px repeat(5, 80px);
+    grid-template-rows: 95px repeat(5, 80px);
 }
 
 #display {
     grid-column: span 4;
     font-family: 'VT323', 'monospace';
-    background-color: #596275;
+    background-color: #bebebe;
     border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: #363636;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -32,22 +32,22 @@ body {
 
 button {
     font-family: 'Varela Round', 'sans-serif';
-    font-size: 250%;
+    font-size: 2.5rem;
     border: 1px;
     border-style: solid;
     border-color: #363636;
 }
 
-.clear, .sign, .percent {
-    background-color: #f95335;
+.operator{
+    background-color: #63cdda;
 }
 
-.operator, .equals {
-    background-color: #fcaf38;
+.operand, .decimal, .clear, .sign, .percent {
+    background-color: #778beb;
 }
 
-.operand, .decimal {
-    background-color: #50a3a4;
+.equals {
+ background-color: #f78fb3;
 }
 
 #btnZero {
