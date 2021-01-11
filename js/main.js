@@ -50,7 +50,7 @@ function keyboardAction(e) {
     inputEquals(firstOperand, secondOperand, firstOperator)}
     else if (e.key == '%') {inputPercent(display.textContent)}
     else if (e.key == 'Delete') {inputClear()}
-    else if (e.key = 'Backspace') {backspace()}
+    else if (e.key == 'Backspace') {backspace()}
 }
 
 function inputOperand(operand) {
