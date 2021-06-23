@@ -1,16 +1,21 @@
-# ETCH-A-SKETCH
+# Calculator
 
-[Live Preview](https://aadam-ali.github.io/calculator/).
+🖥️ [Live Preview](https://aadam-ali.github.io/calculator/) 
 
-This project has been complete as part of the [Odin Project](https://www.theodinproject.com/lessons/calculator).
+## Description
 
-### Calculator created with HTML, CSS and JS.
+This is a calculator application that carries out the functionality of a standard calculator, hence not as advanced as a scientific / graphical calculator. It currently contains keyboard and mouse functionality that allows users to type their calculations. As of now the operations include addition, subtraction, multiplication and division as well as converting numbers to percentages.
 
-* Keyboard and mouse functionality
-* Can perform addition, subtraction, multiplication and divison
-* Can use decimal numbers
-* Converts extremely large and extremely small numbers to scientific notation
+## Future Plans
 
-#### Known Issues:
+Increase functionality of the calculator to contain the that of a scientific calculator, e.g implementing trigonometric functions such as sin(), cos(), tan() etc.
 
-* Keypress issues on firefox, as far as I know these issues do not occur on chromium based browsers
+## Known Bugs
+
+The only known bug at this moment in time is the functionality of the forward slash key for division on Firefox ( the key brings up the quick find menu ).
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
