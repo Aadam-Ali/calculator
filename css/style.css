@@ -8,32 +8,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(120deg, #f7d794, #f3a683);
+    background: linear-gradient(120deg, #B2FEFA, #0ED2F7);
 }
 
 #container {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: 95px repeat(5, 80px);
+    grid-template-columns: repeat(4, 6.25rem);
+    grid-template-rows: 5.9375rem repeat(5, 5rem);
 }
 
 #display {
     grid-column: span 4;
     font-family: 'VT323', 'monospace';
     background-color: #bebebe;
-    border: 1px;
+    border: 0.0625rem;
     border-style: solid;
     border-color: #363636;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 5em;
+    border-radius: 1rem 1rem 0 0;
+
 }
 
 button {
     font-family: 'Varela Round', 'sans-serif';
     font-size: 2.5rem;
-    border: 1px;
+    border: 0.0625rem;
     border-style: solid;
     border-color: #363636;
 }
@@ -48,8 +50,22 @@ button {
 
 .equals {
  background-color: #f78fb3;
+ border-radius: 0 0 1rem 0;
 }
 
 #btnZero {
     grid-column: span 2;
+    border-radius: 0 0 0 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+    #container {
+        display: grid;
+        grid-template-columns: repeat(4, 5rem);
+        grid-template-rows: 4.75rem repeat(5, 4rem);
+    }
+
+    #display {
+        font-size: 4rem;
+    }
 }
