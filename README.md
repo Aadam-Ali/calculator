@@ -19,3 +19,4 @@ The only known bug at this moment in time is the functionality of the forward sl
 - HTML
 - CSS
 - JavaScript
+- jQuery
